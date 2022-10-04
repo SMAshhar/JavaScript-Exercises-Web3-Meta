@@ -1,0 +1,1 @@
+console.log('Quid-e-Azam said, "Unity, Faith and Discipline."')
