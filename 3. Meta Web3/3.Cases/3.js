@@ -1,5 +1,7 @@
-var name  = "Hello Ali, Are you planning to learn JS today?";
+var name  = " Hello Ali, Are you planning to learn JS today?";
 name = name.trim()
+name_lower = name.toLowerCase();
+name_upper = name.toUpperCase();
 
 var nameToList = name_lower.split(" ");
 
@@ -10,7 +12,7 @@ for (var i = 0; i < nameToList.length; i++) {
 }
 var name_title = nameToList.join(" ");
 
-console.log(name_lower.toLowerCase());
+console.log(name_lower);
 console.log(name_upper.toUpperCase());
 console.log(name_title);
 
